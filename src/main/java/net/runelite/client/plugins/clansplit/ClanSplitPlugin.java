@@ -51,9 +51,9 @@ public class ClanSplitPlugin extends Plugin
 
     @Inject private Client client;
     @Inject private ClanSplitConfig config;
+    @Inject private OkHttpClient http;
+    @Inject private Gson gson;
 
-    private final OkHttpClient http = new OkHttpClient.Builder().build();
-    private final Gson gson = new Gson();
     private final AtomicBoolean linkedOnce = new AtomicBoolean(false);
 
     @Provides
