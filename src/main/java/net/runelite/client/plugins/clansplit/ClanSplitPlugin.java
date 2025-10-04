@@ -31,8 +31,7 @@ import okhttp3.Response;
 @Slf4j
 @PluginDescriptor(
     name = "ClanSplit",
-    description = "Sends *your own* PvP Loot Keys to a ClanSplit session",
-    enabledByDefault = false
+    description = "Sends *your own* PvP Loot Keys to a ClanSplit session"
 )
 public class ClanSplitPlugin extends Plugin
 {
